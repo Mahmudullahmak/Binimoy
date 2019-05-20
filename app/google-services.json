@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "972665479879",
+    "firebase_url": "https://binimoy-97025.firebaseio.com",
+    "project_id": "binimoy-97025",
+    "storage_bucket": "binimoy-97025.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972665479879:android:c60865c43e61b788",
+        "android_client_info": {
+          "package_name": "com.example.devilsgod.binimoy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972665479879-rlg53873e31234ul59r8n5cbqa76ibsg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.devilsgod.binimoy",
+            "certificate_hash": "d0b96ea5b0c770ca046fd26b8938c9794241f7a7"
+          }
+        },
+        {
+          "client_id": "972665479879-6as5u962232q0jmorvudfluubrduug3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk0D2V74HtSQCnkQcODulC3cw1q3OdFg4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972665479879-6as5u962232q0jmorvudfluubrduug3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

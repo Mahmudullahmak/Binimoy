@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddSharedItemsFragment">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          >
+          <ImageView
+              android:layout_marginTop="15dp"
+              android:layout_width="250dp"
+              android:layout_height="150dp"
+              android:scaleType="fitXY"
+              android:layout_gravity="center_horizontal"
+              android:id="@+id/add_share_imageId"
+
+              />
+          <Button
+              android:layout_width="wrap_content"
+              android:layout_height="40dp"
+              android:text="Add photo"
+              android:textAllCaps="false"
+              android:layout_gravity="center_horizontal"
+              android:id="@+id/add_photo_shareId"
+              />
+
+          <LinearLayout
+              android:layout_marginTop="20dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              >
+              <TextView
+                  android:layout_marginLeft="10dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Name of your Product?"
+                  android:textStyle="bold"
+                  />
+              <Spinner
+                  android:layout_marginTop="10dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/shareItemNameSpinnerId"
+                  android:background="@android:drawable/btn_dropdown"
+                  >
+
+              </Spinner>
+              <EditText
+                  android:layout_marginTop="5dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:hint="Describe your item..."
+                  android:inputType="textMultiLine"
+                  android:scrollbars="vertical"
+                  android:id="@+id/share_item_descriptionId"
+
+                  />
+              <EditText
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:hint="you phone no.."
+                  android:id="@+id/share_userPhoneNoId"
+                  android:inputType="numberDecimal"
+                  />
+              <Button
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Post"
+                  android:textAllCaps="false"
+                  android:id="@+id/share_postButtonId"
+                  android:layout_gravity="end"
+                  />
+          </LinearLayout>
+
+
+      </LinearLayout>
+
+
+</ScrollView>

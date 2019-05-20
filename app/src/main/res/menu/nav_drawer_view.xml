@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeId"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/shareId"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="@string/share" />
+        <item
+            android:id="@+id/exchangeId"
+            android:icon="@drawable/ic_import_export_black_24dp"
+            android:title="@string/exchange" />
+
+        <item
+            android:id="@+id/lostAndFoundId"
+            android:icon="@drawable/ic_laptop_mac_black_24dp"
+            android:title="@string/lostFound" />
+        <item
+            android:id="@+id/studyMaterialId"
+            android:title="@string/studyMeterial"
+            android:icon="@drawable/book_logo"
+            />
+        <item
+            android:id="@+id/binimoy_logoutId"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="@string/logout" />
+
+    </group>
+</menu>

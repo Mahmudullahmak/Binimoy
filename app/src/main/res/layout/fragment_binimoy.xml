@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".BinimoyFragment">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/binimoyId"
+        >
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/binimoyLayoutid"
+            >
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Share Items"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:id="@+id/home_shareRecyclerId"
+                >
+
+            </android.support.v7.widget.RecyclerView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Items For Exchange:"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textAlignment="center"
+
+                />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:id="@+id/home_exchangeRecyclerId"
+                >
+
+            </android.support.v7.widget.RecyclerView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Found Items:"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textAlignment="center"
+
+                />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:id="@+id/home_foundRecyclerId"
+                >
+
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</ScrollView>
